@@ -20,6 +20,13 @@ class arithmeticalOperations {
             System.out.println("Division by zero is not allowed.");
         }
     }
+    void modulus() {
+        if (b != 0) {
+            System.out.println("Modulus: " + (a % b));
+        } else {
+            System.out.println("Modulus by zero is not allowed.");
+        }
+    }
 }
 public class index {
     public static void main(String[] args) {
@@ -28,5 +35,6 @@ public class index {
         operations.subtract();
         operations.multiply();
         operations.divide();
+        operations.modulus();
     }
 }
